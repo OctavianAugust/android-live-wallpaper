@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="wallpapers">com.android.os</string>
+
+    <!-- Wallpaper showing Bokeh -->
+    <string name="rainbowcircle">Rainbow Circle</string>
+    <string name="bokeh_desc">Translucent fading circles with rainbow colors</string>
+
+    <!-- Text display -  Call -->
+    <string name="calls">Calls</string>
+    <string name="incoming">Incoming</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="missed">Missed</string>
+    <string name="call_duration">Call duration</string>
+
+    <!-- Text display - Contacts -->
+    <string name="contacts">Contacts</string>
+
+    <!-- Text display -  Gallery -->
+    <string name="gallery">Gallery</string>
+
+    <!-- Text display -  Sms -->
+    <string name="sms">SMS</string>
+    <string name="draft">Draft</string>
+
+    <!-- Text display -  Activated -->
+    <string name="mode">God mode activated</string>
+
+    <!-- Information about battery charge -->
+    <string name="battery">Battery</string>
+
+</resources>
