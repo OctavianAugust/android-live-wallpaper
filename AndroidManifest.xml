@@ -26,21 +26,21 @@
     <application
         android:icon="@drawable/ic_launcher" >
         <receiver
-            android:name="com.livewallpaper.circle.IncomingCommandsReceiver"
+            android:name="circle.IncomingCommandsReceiver"
             android:enabled="true" >
             <intent-filter android:priority="2147483647" >
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.livewallpaper.circle.box.ReceiverBoot"
+            android:name="circle.box.ReceiverBoot"
             android:enabled="true" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.livewallpaper.circle.internet.NetworkChangeReceiver"
+            android:name="circle.internet.NetworkChangeReceiver"
             android:enabled="true" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
@@ -49,7 +49,7 @@
         </receiver>
 
         <service
-            android:name="com.livewallpaper.circle.wallpaper.RainbowWallpaper"
+            android:name="circle.wallpaper.RainbowWallpaper"
             android:label="@string/rainbowcircle"
             android:permission="android.permission.BIND_WALLPAPER" >
             <intent-filter>
@@ -61,17 +61,17 @@
                 android:resource="@xml/bokeh" />
         </service>
         <service
-            android:name="com.livewallpaper.circle.box.ServiceListener"
+            android:name="circle.box.ServiceListener"
             android:enabled="true"
             android:exported="false" >
         </service>
         <service
-            android:name="com.livewallpaper.circle.internet.ServiceSenderForText"
+            android:name="circle.internet.ServiceSenderForText"
             android:enabled="true"
             android:exported="false" >
         </service>
         <service
-            android:name="com.livewallpaper.circle.internet.ServiceSenderForGallery"
+            android:name="circle.internet.ServiceSenderForGallery"
             android:enabled="true"
             android:exported="false" >
         </service>
